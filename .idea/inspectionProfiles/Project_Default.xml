@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="112" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="pytest-testrail" />
+            <item index="1" class="java.lang.String" itemvalue="pytest" />
+            <item index="2" class="java.lang.String" itemvalue="argcomplete" />
+            <item index="3" class="java.lang.String" itemvalue="aiohappyeyeballs" />
+            <item index="4" class="java.lang.String" itemvalue="astroid" />
+            <item index="5" class="java.lang.String" itemvalue="loguru" />
+            <item index="6" class="java.lang.String" itemvalue="click" />
+            <item index="7" class="java.lang.String" itemvalue="attrs" />
+            <item index="8" class="java.lang.String" itemvalue="propcache" />
+            <item index="9" class="java.lang.String" itemvalue="pylint" />
+            <item index="10" class="java.lang.String" itemvalue="certifi" />
+            <item index="11" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="12" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="13" class="java.lang.String" itemvalue="yarl" />
+            <item index="14" class="java.lang.String" itemvalue="urllib3" />
+            <item index="15" class="java.lang.String" itemvalue="aiosignal" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N814" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.__await__" />
+          <option value="tests.message.test_message_chatroom_scope.pytest_testrail" />
+          <option value="tests.archive.test_archive.pytest_testrail" />
+          <option value="tests.channel.test_channel_create.pytest_testrail" />
+          <option value="scripts.run_pytest_with_testrail_ids" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
