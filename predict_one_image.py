@@ -73,7 +73,7 @@ if __name__ == '__main__':
     # config file
     config = Config({
         # image path
-        "image_path": os.getenv('IMAGE_PATH', './test_images/kunkun.png'),
+        "image_path": "",
 
         # valid times
         "num_crops": 20,
@@ -91,7 +91,7 @@ if __name__ == '__main__':
         "scale": 0.8,
 
         # checkpoint path
-        "ckpt_path": os.getenv('CKPT_PATH', './ckpt_koniq10k.pt'),
+        "ckpt_path": "",
     })
     
     # data load
